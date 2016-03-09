@@ -1,5 +1,5 @@
 {
-	"version": 7,
+	"version": 8,
 	"ssids": [
 		"012Freifunk",
 		"012Freifunk-5GHz",
@@ -81,6 +81,7 @@
 		"Maxnet Mesh - Access Point",
 		"muenchen.freifunk.net",
 		"muenster.freifunk.net",
+		"neustadt-aisch.freifunk.net",
 		"nord.freifunk.net",
 		"nw.freifunk.net",
 		"osnabrueck.freifunk.net",
