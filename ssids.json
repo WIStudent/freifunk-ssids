@@ -1,5 +1,5 @@
 {
-	"version": 8,
+	"version": 9,
 	"ssids": [
 		"012Freifunk",
 		"012Freifunk-5GHz",
@@ -21,6 +21,7 @@
 		"Maxnet Mesh - Access Point",
 		"altdorf.freifunk.net",
 		"bent.freifunk.net",
+		"berlin.freifunk.net",
 		"bot.freifunk.net",
 		"bremen.freifunk.net",
 		"darmstadt.freifunk.net (5GHz)",
