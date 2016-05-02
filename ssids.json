@@ -1,5 +1,5 @@
 {
-	"version": 9,
+	"version": 12,
 	"ssids": [
 		"012Freifunk",
 		"012Freifunk-5GHz",
@@ -92,7 +92,6 @@
 		"lueneburg.freifunk.net",
 		"luxembourg.freifunk.net",
 		"muenchen.freifunk.net",
-		"muenster.freifunk.net",
 		"neustadt-aisch.freifunk.net",
 		"nord.freifunk.net",
 		"nordwest.freifunk.net",
@@ -107,8 +106,8 @@
 		"sg.freifunk.net",
 		"straelen.freifunk.net (5 ghz)",
 		"straelen.freifunk.net",
-		"straelen.freifunk.net",
 		"stuttgart.freifunk.net",
+		"suedpfalz.freifunk.net",
 		"trier.freifunk.net",
 		"uelzen.freifunk.net (5GHz)",
 		"uelzen.freifunk.net",
@@ -116,5 +115,7 @@
 		"westpfalz.freifunk.net",
 		"wiesbaden.freifunk.net",
 		"wipp.freifunk.net",
-		"wk.freifunk.net"]
+		"wk.freifunk.net"],
+	"deprecated": [
+		"muenster.freifunk.net"]
 }
