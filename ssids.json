@@ -1,5 +1,5 @@
 {
-	"version": 13,
+	"version": 14,
 	"ssids": [
 		"012Freifunk",
 		"012Freifunk-5GHz",
@@ -99,6 +99,7 @@
 		"nord.freifunk.net",
 		"nordwest.freifunk.net",
 		"nw.freifunk.net",
+		"ortenau.freifunk.net",
 		"osnabrueck.freifunk.net",
 		"pinneberg.freifunk.net",
 		"regensburg.freifunk.net",
