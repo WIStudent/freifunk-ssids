@@ -1,5 +1,5 @@
 {
-	"version": 12,
+	"version": 13,
 	"ssids": [
 		"012Freifunk",
 		"012Freifunk-5GHz",
@@ -33,6 +33,7 @@
 		"ffwp Testnetz",
 		"flensburg.freifunk.net",
 		"franken.freifunk.net",
+		"freiburg.freifunk.net",
 		"freifunk dresden [1003]",
 		"freifunk dresden [1026]",
 		"freifunk dresden [1028]",
@@ -71,6 +72,7 @@
 		"freifunk-weinstrasse.de",
 		"freifunk-westerwald.de",
 		"freifunk-weyher.de",
+		"freifunk-winterberg.net",
 		"freifunk-ww.de",
 		"freifunk.net",
 		"freifunksb",
@@ -80,6 +82,7 @@
 		"gronau.freifunk.net",
 		"guetersloh.freifunk.net",
 		"hamburg.freifunk.net",
+		"hannover.freifunk.net",
 		"http://kiel.freifunk.net/",
 		"hw.freifunk.net",
 		"karlsruhe.freifunk.net",
