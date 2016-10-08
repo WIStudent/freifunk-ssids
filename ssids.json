@@ -1,5 +1,5 @@
 {
-	"version": 15,
+	"version": 16,
 	"ssids": [
 		"012Freifunk",
 		"012Freifunk-5GHz",
@@ -11,6 +11,9 @@
 		"bodensee.freifunk.net",
 		"Freifunk (5GHz)",
 		"Freifunk Erfurt",
+		"Freifunk Erfurt (5GHz)",
+		"Freifunk Ilmenau",
+		"Freifunk Ilmenau (5GHz)",
 		"Freifunk",
 		"Freifunk-Euskirchen.de",
 		"Freifunk-Goethesteig",
