@@ -1,13 +1,11 @@
 {
-	"version": 17,
+	"version": 19,
 	"ssids": [
 		"012Freifunk",
 		"012Freifunk-5GHz",
 		"059-Freifunk",
 		"060-Freifunk",
 		"061-Freifunk",
-		"3laendereck.freifunk.net (5GHz)",
-		"3laendereck.freifunk.net",
 		"Freifunk (5GHz)",
 		"Freifunk Erfurt (5GHz)",
 		"Freifunk Erfurt",
@@ -36,6 +34,7 @@
 		"ffm.freifunk.net",
 		"ffwp Testnetz",
 		"flensburg.freifunk.net",
+		"flensburg.freifunk.net (5 Ghz)",
 		"franken.freifunk.net",
 		"freiburg.freifunk.net",
 		"freifunk dresden [1003]",
@@ -129,5 +128,7 @@
 		"wipp.freifunk.net",
 		"wk.freifunk.net"],
 	"deprecated": [
-		"muenster.freifunk.net"]
+		"muenster.freifunk.net",
+		"3laendereck.freifunk.net",
+		"3laendereck.freifunk.net (5GHz)"]
 }
