@@ -128,5 +128,7 @@
 		"wipp.freifunk.net",
 		"wk.freifunk.net"],
 	"deprecated": [
-		"muenster.freifunk.net"]
+		"muenster.freifunk.net",
+		"3laendereck.freifunk.net",
+		"3laendereck.freifunk.net (5GHz)"]
 }
