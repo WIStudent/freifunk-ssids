@@ -1,5 +1,5 @@
 {
-	"version": 19,
+	"version": 20,
 	"ssids": [
 		"012Freifunk",
 		"012Freifunk-5GHz",
@@ -26,6 +26,7 @@
 		"bodensee.freifunk.net",
 		"bot.freifunk.net",
 		"bremen.freifunk.net",
+		"chemnitz.freifunk.net",
 		"darmstadt.freifunk.net (5GHz)",
 		"darmstadt.freifunk.net",
 		"dortmund.freifunk.net",
