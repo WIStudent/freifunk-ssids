@@ -1,4 +1,5 @@
 # freifunk-ssids
+[![Build Status](https://travis-ci.org/WIStudent/freifunk-ssids.svg?branch=master)](https://travis-ci.org/WIStudent/freifunk-ssids)
 This repository contains a list of SSIDs that are used by Freifunk.
 
 ## How to add SSIDs
