@@ -87,7 +87,7 @@
 		"fulda.freifunk.net5ghz",
 		"greifswald.freifunk.net",
 		"gronau.freifunk.net",
-		"guetersloh.freifunk.net",
+		"KreisGT.freifunk.net",
 		"hamburg.freifunk.net",
 		"hannover.freifunk.net",
 		"http://kiel.freifunk.net/",
@@ -128,9 +128,12 @@
 		"westpfalz.freifunk.net",
 		"wiesbaden.freifunk.net",
 		"wipp.freifunk.net",
-		"wk.freifunk.net"],
+		"wk.freifunk.net"
+	],
 	"deprecated": [
 		"muenster.freifunk.net",
 		"3laendereck.freifunk.net",
-		"3laendereck.freifunk.net (5GHz)"]
+		"3laendereck.freifunk.net (5GHz)",
+		"guetersloh.freifunk.net"
+	]
 }
