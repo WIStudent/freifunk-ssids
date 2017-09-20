@@ -2,6 +2,18 @@ import json
 import sys
 import os
 
+def is_sorted_alphabetically(array):
+    """
+    Check if the elements of array are sorted alphabetically.
+    :param array: An array containing strings.
+    :return: (True, -1, -1) if the elements are sorted alphabetically. If not, (False, i, j) where i and j are the
+    indices of the elements that are in wrong order.
+    """
+    for i, string in enumerate(array[1:]):
+        if string < array[i]:
+            return (False, i, i+1)
+    return (True, -1, -1)
+
 path = sys.argv[1]
 if not os.path.exists(path):
     sys.exit("File " + path +  " does not exist!")
@@ -10,7 +22,7 @@ if not os.path.exists(path):
 try:
     with open(path, 'r') as json_file:
         json_data = json.load(json_file)
-except json.JSONDecodeError:
+except ValueError:
     sys.exit("Invalid JSON!")
 
 # Test version number
@@ -49,6 +61,17 @@ for ssid in deprecated_ssids:
     if not isinstance(ssid, str):
         sys.exit('Deprecated SSID {} is not a string!'.format(ssid))
 
+print('JOSN formatting is valid')
+
+# Test if SSIDs are sorted aphabetically
+res = is_sorted_alphabetically(ssids)
+if not res[0]:
+    sys.exit('SSIDs are not sorted alphabetically, see "{}" and "{}"'.format(ssids[res[1]], ssids[res[2]]))
+
+res = is_sorted_alphabetically(deprecated_ssids)
+if not res[0]:
+    sys.exit('Deprecated SSIDs are not sorted alphabetically, see "{}" and "{}"'.format(deprecated_ssids[res[1]], deprecated_ssids[res[2]]))
+    
 print('{} SSIDs found.'.format(len(ssids)))
 print('{} deprecated SSIDs found.'.format(len(deprecated_ssids)))
 print('Validation complete!')
