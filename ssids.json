@@ -1,5 +1,5 @@
 {
-	"version": 28,
+	"version": 29,
 	"ssids": [
 		"012Freifunk",
 		"012Freifunk-5GHz",
@@ -163,6 +163,7 @@
 		"rs.freifunk.net",
 		"saar.freifunk.net",
 		"sg.freifunk.net",
+		"slfl.freifunk.net",
 		"steinburg.freifunk.net",
 		"straelen.freifunk.net",
 		"straelen.freifunk.net (5 ghz)",
